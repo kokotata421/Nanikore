@@ -7,15 +7,22 @@
 //
 
 import UIKit
+import Firebase
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let appKey = "0ac9ead5f4673bcb62e02aa5165c1dc73065338cceacd790debfc9e1997a17a1"
+    let clientKey = "def1c3424ddd327cd74b57c12072a6778a4193acc065f03c335e267811fe9422"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        NCMB.setApplicationKey(appKey, clientKey: clientKey)
+        FirebaseApp.configure()
+        GADMobileAds.configure(withApplicationID: "ca-app-pub-8719818866106636~8119350103")
+        
         return true
     }
 
@@ -31,6 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "backFromBackgounrdDuringGame"), object: nil)
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {

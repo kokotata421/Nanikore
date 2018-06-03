@@ -7,6 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09DD2D84DCC5CD03BEC3E707 /* libPods-NanikoreTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFFBBECE0158C890DDD6E67 /* libPods-NanikoreTests.a */; };
+		4DC7D856693414BEE7349DB9 /* libPods-NanikoreUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49962416EE89B3D185F5AEE1 /* libPods-NanikoreUITests.a */; };
+		871134F21EB8773500CD66EE /* failureSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 871134F11EB8773500CD66EE /* failureSound.mp3 */; };
+		871134FC1EBAE21100CD66EE /* clearSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 871134FB1EBAE21100CD66EE /* clearSound.mp3 */; };
+		871135021EBAE25200CD66EE /* nanikore_title_bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 871135011EBAE25200CD66EE /* nanikore_title_bgm.mp3 */; };
+		871135041EBAE26900CD66EE /* decisionSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 871135031EBAE26900CD66EE /* decisionSound.mp3 */; };
+		871135061EBAE32200CD66EE /* countDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 871135051EBAE32200CD66EE /* countDown.mp3 */; };
+		871135101EBEF3B600CD66EE /* touchSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8711350F1EBEF3B600CD66EE /* touchSound.mp3 */; };
+		871135131EC1DB1500CD66EE /* stampSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 871135121EC1DB1500CD66EE /* stampSound.wav */; };
+		872F0B491EFF729D00AEEEAF /* Easy2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 872F0B481EFF729D00AEEEAF /* Easy2.csv */; };
+		872F0B4B1EFFC24600AEEEAF /* Easy3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 872F0B4A1EFFC24600AEEEAF /* Easy3.csv */; };
+		872F0B4D1EFFC36300AEEEAF /* Easy4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 872F0B4C1EFFC36300AEEEAF /* Easy4.csv */; };
+		872F0B4F1F04984900AEEEAF /* Easy5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 872F0B4E1F04984900AEEEAF /* Easy5.csv */; };
+		872F0B511F04E7EA00AEEEAF /* Easy6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 872F0B501F04E7EA00AEEEAF /* Easy6.csv */; };
+		87305E761FE6C38A0093C852 /* Hard10.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452ADE1F5AF0E4003D9ABD /* Hard10.csv */; };
+		87377F5C1F98AB2000306D12 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87377F5B1F98AB1D00306D12 /* correct.mp3 */; };
+		87377F5D1F98AB2600306D12 /* stageClear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87377F5A1F98AB1600306D12 /* stageClear.mp3 */; };
+		87377F5F1F98AB6D00306D12 /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87377F5E1F98AB6A00306D12 /* wrong.mp3 */; };
+		87452A771F466F27003D9ABD /* Easy7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A761F466F27003D9ABD /* Easy7.csv */; };
+		87452A791F46CB28003D9ABD /* Easy8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A781F46CB28003D9ABD /* Easy8.csv */; };
+		87452A7B1F46DB36003D9ABD /* Easy9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A7A1F46DB36003D9ABD /* Easy9.csv */; };
+		87452A7D1F46E6D5003D9ABD /* Easy10.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A7C1F46E6D5003D9ABD /* Easy10.csv */; };
+		87452A7F1F46FF4C003D9ABD /* Easy11.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A7E1F46FF4C003D9ABD /* Easy11.csv */; };
+		87452A811F47304A003D9ABD /* Easy12.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A801F47304A003D9ABD /* Easy12.csv */; };
+		87452A831F47E0BB003D9ABD /* Easy13.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A821F47E0BB003D9ABD /* Easy13.csv */; };
+		87452A851F488833003D9ABD /* Easy14.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A841F488833003D9ABD /* Easy14.csv */; };
+		87452A871F489548003D9ABD /* Easy15.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A861F489548003D9ABD /* Easy15.csv */; };
+		87452A891F49239B003D9ABD /* Easy16.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A881F49239B003D9ABD /* Easy16.csv */; };
+		87452A8B1F496506003D9ABD /* Easy17.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A8A1F496506003D9ABD /* Easy17.csv */; };
+		87452A8D1F49C001003D9ABD /* Easy18.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A8C1F49C001003D9ABD /* Easy18.csv */; };
+		87452A8F1F4AC04D003D9ABD /* Easy19.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A8E1F4AC04D003D9ABD /* Easy19.csv */; };
+		87452A911F4B0420003D9ABD /* Easy20.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A901F4B0420003D9ABD /* Easy20.csv */; };
+		87452A931F4B1D70003D9ABD /* Easy21.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A921F4B1D70003D9ABD /* Easy21.csv */; };
+		87452A971F4C1254003D9ABD /* Easy22.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A961F4C1254003D9ABD /* Easy22.csv */; };
+		87452A991F4C34EE003D9ABD /* Easy23.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A981F4C34EE003D9ABD /* Easy23.csv */; };
+		87452A9B1F4C755C003D9ABD /* Easy24.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A9A1F4C755C003D9ABD /* Easy24.csv */; };
+		87452A9D1F4D5EE7003D9ABD /* Normal1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A9C1F4D5EE7003D9ABD /* Normal1.csv */; };
+		87452A9F1F4DA1D7003D9ABD /* Normal2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452A9E1F4DA1D7003D9ABD /* Normal2.csv */; };
+		87452AA11F4E8FCA003D9ABD /* Normal3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AA01F4E8FCA003D9ABD /* Normal3.csv */; };
+		87452AA31F4EC215003D9ABD /* Normal4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AA21F4EC215003D9ABD /* Normal4.csv */; };
+		87452AA51F4F7F3D003D9ABD /* Normal5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AA41F4F7F3D003D9ABD /* Normal5.csv */; };
+		87452AA71F500368003D9ABD /* Normal6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AA61F500368003D9ABD /* Normal6.csv */; };
+		87452AA91F501E7D003D9ABD /* Normal7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AA81F501E7D003D9ABD /* Normal7.csv */; };
+		87452AAB1F503E34003D9ABD /* Normal8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AAA1F503E34003D9ABD /* Normal8.csv */; };
+		87452AAD1F505E6E003D9ABD /* Normal9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AAC1F505E6E003D9ABD /* Normal9.csv */; };
+		87452AAF1F51B468003D9ABD /* Normal12.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AAE1F51B468003D9ABD /* Normal12.csv */; };
+		87452AB11F51B87E003D9ABD /* Normal11.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AB01F51B87E003D9ABD /* Normal11.csv */; };
+		87452AB31F51BDF3003D9ABD /* Normal10.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AB21F51BDF3003D9ABD /* Normal10.csv */; };
+		87452AB51F52B0AA003D9ABD /* Normal13.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AB41F52B0AA003D9ABD /* Normal13.csv */; };
+		87452AB71F52B7BD003D9ABD /* Normal14.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AB61F52B7BD003D9ABD /* Normal14.csv */; };
+		87452AB91F52C811003D9ABD /* Normal15.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AB81F52C811003D9ABD /* Normal15.csv */; };
+		87452ABB1F52E12F003D9ABD /* Normal16.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452ABA1F52E12F003D9ABD /* Normal16.csv */; };
+		87452ABD1F530B0A003D9ABD /* Normal17.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452ABC1F530B0A003D9ABD /* Normal17.csv */; };
+		87452ABF1F53A619003D9ABD /* Normal18.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452ABE1F53A619003D9ABD /* Normal18.csv */; };
+		87452AC11F53F650003D9ABD /* Normal19.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AC01F53F650003D9ABD /* Normal19.csv */; };
+		87452AC31F543615003D9ABD /* Normal20.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AC21F543615003D9ABD /* Normal20.csv */; };
+		87452AC51F553FD9003D9ABD /* Normal21.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AC41F553FD9003D9ABD /* Normal21.csv */; };
+		87452AC71F557BAE003D9ABD /* Normal22.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AC61F557BAE003D9ABD /* Normal22.csv */; };
+		87452AC91F559DC4003D9ABD /* Normal23.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AC81F559DC4003D9ABD /* Normal23.csv */; };
+		87452ACB1F568CC7003D9ABD /* Normal24.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452ACA1F568CC7003D9ABD /* Normal24.csv */; };
+		87452ACD1F56CF72003D9ABD /* Hard1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452ACC1F56CF72003D9ABD /* Hard1.csv */; };
+		87452ACF1F57AFF1003D9ABD /* Hard2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452ACE1F57AFF1003D9ABD /* Hard2.csv */; };
+		87452AD11F583E93003D9ABD /* Hard3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AD01F583E93003D9ABD /* Hard3.csv */; };
+		87452AD31F5856F8003D9ABD /* Hard4.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AD21F5856F7003D9ABD /* Hard4.csv */; };
+		87452AD51F592EDB003D9ABD /* Hard5.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AD41F592EDB003D9ABD /* Hard5.csv */; };
+		87452AD71F597866003D9ABD /* Hard6.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AD61F597866003D9ABD /* Hard6.csv */; };
+		87452AD91F5A5BF9003D9ABD /* Hard7.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AD81F5A5BF9003D9ABD /* Hard7.csv */; };
+		87452ADB1F5AB23A003D9ABD /* Hard8.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452ADA1F5AB23A003D9ABD /* Hard8.csv */; };
+		87452ADD1F5ADC95003D9ABD /* Hard9.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452ADC1F5ADC95003D9ABD /* Hard9.csv */; };
+		87452AE11F5B9662003D9ABD /* Hard11.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AE01F5B9662003D9ABD /* Hard11.csv */; };
+		87452AE31F5BBEEE003D9ABD /* Hard12.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AE21F5BBEEE003D9ABD /* Hard12.csv */; };
+		87452AE51F5BF20D003D9ABD /* Hard13.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AE41F5BF20D003D9ABD /* Hard13.csv */; };
+		87452AE71F5D09D5003D9ABD /* Hard14.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AE61F5D09D5003D9ABD /* Hard14.csv */; };
+		87452AE91F5EF40B003D9ABD /* Hard15.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AE81F5EF40B003D9ABD /* Hard15.csv */; };
+		87452AEB1F60F002003D9ABD /* Hard16.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AEA1F60F002003D9ABD /* Hard16.csv */; };
+		87452AED1F610B69003D9ABD /* Hard17.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AEC1F610B69003D9ABD /* Hard17.csv */; };
+		87452AEF1F615A95003D9ABD /* Hard18.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AEE1F615A95003D9ABD /* Hard18.csv */; };
+		87452AF11F622103003D9ABD /* Hard19.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AF01F622103003D9ABD /* Hard19.csv */; };
+		87452AF31F627BCF003D9ABD /* Hard20.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AF21F627BCF003D9ABD /* Hard20.csv */; };
+		87452AF51F64E70B003D9ABD /* Hard21.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AF41F64E70B003D9ABD /* Hard21.csv */; };
+		87452AF71F66C777003D9ABD /* Hard22.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87452AF61F66C777003D9ABD /* Hard22.csv */; };
 		8770D6601E6A3396000B0186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770D65F1E6A3396000B0186 /* AppDelegate.swift */; };
 		8770D6621E6A3396000B0186 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770D6611E6A3396000B0186 /* ViewController.swift */; };
 		8770D6651E6A3396000B0186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8770D6631E6A3396000B0186 /* Main.storyboard */; };
@@ -14,6 +95,31 @@
 		8770D66A1E6A3396000B0186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8770D6681E6A3396000B0186 /* LaunchScreen.storyboard */; };
 		8770D6751E6A3396000B0186 /* NanikoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770D6741E6A3396000B0186 /* NanikoreTests.swift */; };
 		8770D6801E6A3396000B0186 /* NanikoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770D67F1E6A3396000B0186 /* NanikoreUITests.swift */; };
+		8770D68E1E6C00A8000B0186 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770D68D1E6C00A8000B0186 /* TitleViewController.swift */; };
+		8770D6901E6C0133000B0186 /* GameLevelSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770D68F1E6C0133000B0186 /* GameLevelSelectViewController.swift */; };
+		8770D6921E6C0143000B0186 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770D6911E6C0143000B0186 /* GameViewController.swift */; };
+		8770D6941E6C0155000B0186 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770D6931E6C0155000B0186 /* GameOverViewController.swift */; };
+		8770D6961E72A46C000B0186 /* StageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770D6951E72A46C000B0186 /* StageButton.swift */; };
+		8784C18E1EA35F54000B032B /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8784C18D1EA35F54000B032B /* AnswerViewController.swift */; };
+		8784C1901EA49FA1000B032B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8784C18F1EA49FA1000B032B /* AdSupport.framework */; };
+		8784C1921EA49FAA000B032B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8784C1911EA49FAA000B032B /* AudioToolbox.framework */; };
+		8784C1941EA49FCB000B032B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8784C1931EA49FCB000B032B /* AVFoundation.framework */; };
+		8784C1961EA49FD0000B032B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8784C1951EA49FD0000B032B /* CoreGraphics.framework */; };
+		8784C1981EA49FDD000B032B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8784C1971EA49FDD000B032B /* CoreMedia.framework */; };
+		8784C19A1EA49FE6000B032B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8784C1991EA49FE6000B032B /* CoreTelephony.framework */; };
+		8784C19C1EA49FF3000B032B /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8784C19B1EA49FF3000B032B /* EventKit.framework */; };
+		8784C19E1EA49FFA000B032B /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8784C19D1EA49FFA000B032B /* EventKitUI.framework */; };
+		8784C1A01EA4A004000B032B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8784C19F1EA4A004000B032B /* MessageUI.framework */; };
+		8784C1A21EA4A009000B032B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8784C1A11EA4A009000B032B /* StoreKit.framework */; };
+		8784C1A41EA4A011000B032B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8784C1A31EA4A011000B032B /* SystemConfiguration.framework */; };
+		87A2E1211EA6E7EB0045D863 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2E1201EA6E7EA0045D863 /* Question.swift */; };
+		87B4F8C01F88CF1D006EEC02 /* Hard23.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87B4F8BF1F88CF1D006EEC02 /* Hard23.csv */; };
+		87B4F8C21F88F214006EEC02 /* Hard24.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87B4F8C11F88F214006EEC02 /* Hard24.csv */; };
+		87C3A1401FBEC49400911484 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87C3A13F1FBEC49400911484 /* GoogleService-Info.plist */; };
+		87C68FDE1F948FFF00E4DB56 /* countDownFinish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87C68FDD1F948FFF00E4DB56 /* countDownFinish.mp3 */; };
+		87C90D471EDEDFE0000B1C63 /* Easy1.csv in Resources */ = {isa = PBXBuildFile; fileRef = 87C90D461EDEDFE0000B1C63 /* Easy1.csv */; };
+		87FD798A1E850F5E0087FE06 /* GameRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD79891E850F5E0087FE06 /* GameRecordViewController.swift */; };
+		DB15D22CFA605CD78AB603E0 /* libPods-Nanikore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F809B6DFDE3D323D8342F6D3 /* libPods-Nanikore.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +140,92 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004682B0FBD09EC4BEE0C04C /* Pods-NanikoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanikoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NanikoreTests/Pods-NanikoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FFFBBECE0158C890DDD6E67 /* libPods-NanikoreTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NanikoreTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E873ACAA53E97A2E6DE214F /* Pods-Nanikore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nanikore.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nanikore/Pods-Nanikore.release.xcconfig"; sourceTree = "<group>"; };
+		360B216622E6D0C9AEC7A59B /* Pods-Nanikore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nanikore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nanikore/Pods-Nanikore.debug.xcconfig"; sourceTree = "<group>"; };
+		49962416EE89B3D185F5AEE1 /* libPods-NanikoreUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NanikoreUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58573A040A4E2EA2DC58B693 /* Pods-NanikoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanikoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NanikoreUITests/Pods-NanikoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7817366C448DF3A03EAE7140 /* Pods-NanikoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanikoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NanikoreUITests/Pods-NanikoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		871134F11EB8773500CD66EE /* failureSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failureSound.mp3; sourceTree = "<group>"; };
+		871134FB1EBAE21100CD66EE /* clearSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clearSound.mp3; sourceTree = "<group>"; };
+		871135011EBAE25200CD66EE /* nanikore_title_bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nanikore_title_bgm.mp3; sourceTree = "<group>"; };
+		871135031EBAE26900CD66EE /* decisionSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = decisionSound.mp3; sourceTree = "<group>"; };
+		871135051EBAE32200CD66EE /* countDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = countDown.mp3; sourceTree = "<group>"; };
+		8711350F1EBEF3B600CD66EE /* touchSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = touchSound.mp3; sourceTree = "<group>"; };
+		871135121EC1DB1500CD66EE /* stampSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = stampSound.wav; sourceTree = "<group>"; };
+		872F0B481EFF729D00AEEEAF /* Easy2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy2.csv; sourceTree = "<group>"; };
+		872F0B4A1EFFC24600AEEEAF /* Easy3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy3.csv; sourceTree = "<group>"; };
+		872F0B4C1EFFC36300AEEEAF /* Easy4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy4.csv; sourceTree = "<group>"; };
+		872F0B4E1F04984900AEEEAF /* Easy5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy5.csv; sourceTree = "<group>"; };
+		872F0B501F04E7EA00AEEEAF /* Easy6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy6.csv; sourceTree = "<group>"; };
+		87377F5A1F98AB1600306D12 /* stageClear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stageClear.mp3; sourceTree = "<group>"; };
+		87377F5B1F98AB1D00306D12 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		87377F5E1F98AB6A00306D12 /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
+		87452A761F466F27003D9ABD /* Easy7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy7.csv; sourceTree = "<group>"; };
+		87452A781F46CB28003D9ABD /* Easy8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy8.csv; sourceTree = "<group>"; };
+		87452A7A1F46DB36003D9ABD /* Easy9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy9.csv; sourceTree = "<group>"; };
+		87452A7C1F46E6D5003D9ABD /* Easy10.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy10.csv; sourceTree = "<group>"; };
+		87452A7E1F46FF4C003D9ABD /* Easy11.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy11.csv; sourceTree = "<group>"; };
+		87452A801F47304A003D9ABD /* Easy12.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy12.csv; sourceTree = "<group>"; };
+		87452A821F47E0BB003D9ABD /* Easy13.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy13.csv; sourceTree = "<group>"; };
+		87452A841F488833003D9ABD /* Easy14.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy14.csv; sourceTree = "<group>"; };
+		87452A861F489548003D9ABD /* Easy15.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy15.csv; sourceTree = "<group>"; };
+		87452A881F49239B003D9ABD /* Easy16.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy16.csv; sourceTree = "<group>"; };
+		87452A8A1F496506003D9ABD /* Easy17.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy17.csv; sourceTree = "<group>"; };
+		87452A8C1F49C001003D9ABD /* Easy18.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy18.csv; sourceTree = "<group>"; };
+		87452A8E1F4AC04D003D9ABD /* Easy19.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy19.csv; sourceTree = "<group>"; };
+		87452A901F4B0420003D9ABD /* Easy20.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy20.csv; sourceTree = "<group>"; };
+		87452A921F4B1D70003D9ABD /* Easy21.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy21.csv; sourceTree = "<group>"; };
+		87452A961F4C1254003D9ABD /* Easy22.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy22.csv; sourceTree = "<group>"; };
+		87452A981F4C34EE003D9ABD /* Easy23.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy23.csv; sourceTree = "<group>"; };
+		87452A9A1F4C755C003D9ABD /* Easy24.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy24.csv; sourceTree = "<group>"; };
+		87452A9C1F4D5EE7003D9ABD /* Normal1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal1.csv; sourceTree = "<group>"; };
+		87452A9E1F4DA1D7003D9ABD /* Normal2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal2.csv; sourceTree = "<group>"; };
+		87452AA01F4E8FCA003D9ABD /* Normal3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal3.csv; sourceTree = "<group>"; };
+		87452AA21F4EC215003D9ABD /* Normal4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal4.csv; sourceTree = "<group>"; };
+		87452AA41F4F7F3D003D9ABD /* Normal5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal5.csv; sourceTree = "<group>"; };
+		87452AA61F500368003D9ABD /* Normal6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal6.csv; sourceTree = "<group>"; };
+		87452AA81F501E7D003D9ABD /* Normal7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal7.csv; sourceTree = "<group>"; };
+		87452AAA1F503E34003D9ABD /* Normal8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal8.csv; sourceTree = "<group>"; };
+		87452AAC1F505E6E003D9ABD /* Normal9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal9.csv; sourceTree = "<group>"; };
+		87452AAE1F51B468003D9ABD /* Normal12.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal12.csv; sourceTree = "<group>"; };
+		87452AB01F51B87E003D9ABD /* Normal11.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal11.csv; sourceTree = "<group>"; };
+		87452AB21F51BDF3003D9ABD /* Normal10.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal10.csv; sourceTree = "<group>"; };
+		87452AB41F52B0AA003D9ABD /* Normal13.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal13.csv; sourceTree = "<group>"; };
+		87452AB61F52B7BD003D9ABD /* Normal14.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal14.csv; sourceTree = "<group>"; };
+		87452AB81F52C811003D9ABD /* Normal15.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal15.csv; sourceTree = "<group>"; };
+		87452ABA1F52E12F003D9ABD /* Normal16.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal16.csv; sourceTree = "<group>"; };
+		87452ABC1F530B0A003D9ABD /* Normal17.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal17.csv; sourceTree = "<group>"; };
+		87452ABE1F53A619003D9ABD /* Normal18.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal18.csv; sourceTree = "<group>"; };
+		87452AC01F53F650003D9ABD /* Normal19.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal19.csv; sourceTree = "<group>"; };
+		87452AC21F543615003D9ABD /* Normal20.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal20.csv; sourceTree = "<group>"; };
+		87452AC41F553FD9003D9ABD /* Normal21.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal21.csv; sourceTree = "<group>"; };
+		87452AC61F557BAE003D9ABD /* Normal22.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal22.csv; sourceTree = "<group>"; };
+		87452AC81F559DC4003D9ABD /* Normal23.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal23.csv; sourceTree = "<group>"; };
+		87452ACA1F568CC7003D9ABD /* Normal24.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Normal24.csv; sourceTree = "<group>"; };
+		87452ACC1F56CF72003D9ABD /* Hard1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard1.csv; sourceTree = "<group>"; };
+		87452ACE1F57AFF1003D9ABD /* Hard2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard2.csv; sourceTree = "<group>"; };
+		87452AD01F583E93003D9ABD /* Hard3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard3.csv; sourceTree = "<group>"; };
+		87452AD21F5856F7003D9ABD /* Hard4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard4.csv; sourceTree = "<group>"; };
+		87452AD41F592EDB003D9ABD /* Hard5.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard5.csv; sourceTree = "<group>"; };
+		87452AD61F597866003D9ABD /* Hard6.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard6.csv; sourceTree = "<group>"; };
+		87452AD81F5A5BF9003D9ABD /* Hard7.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard7.csv; sourceTree = "<group>"; };
+		87452ADA1F5AB23A003D9ABD /* Hard8.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard8.csv; sourceTree = "<group>"; };
+		87452ADC1F5ADC95003D9ABD /* Hard9.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard9.csv; sourceTree = "<group>"; };
+		87452ADE1F5AF0E4003D9ABD /* Hard10.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard10.csv; sourceTree = "<group>"; };
+		87452AE01F5B9662003D9ABD /* Hard11.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard11.csv; sourceTree = "<group>"; };
+		87452AE21F5BBEEE003D9ABD /* Hard12.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard12.csv; sourceTree = "<group>"; };
+		87452AE41F5BF20D003D9ABD /* Hard13.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard13.csv; sourceTree = "<group>"; };
+		87452AE61F5D09D5003D9ABD /* Hard14.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard14.csv; sourceTree = "<group>"; };
+		87452AE81F5EF40B003D9ABD /* Hard15.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard15.csv; sourceTree = "<group>"; };
+		87452AEA1F60F002003D9ABD /* Hard16.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard16.csv; sourceTree = "<group>"; };
+		87452AEC1F610B69003D9ABD /* Hard17.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard17.csv; sourceTree = "<group>"; };
+		87452AEE1F615A95003D9ABD /* Hard18.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard18.csv; sourceTree = "<group>"; };
+		87452AF01F622103003D9ABD /* Hard19.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard19.csv; sourceTree = "<group>"; };
+		87452AF21F627BCF003D9ABD /* Hard20.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard20.csv; sourceTree = "<group>"; };
+		87452AF41F64E70B003D9ABD /* Hard21.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard21.csv; sourceTree = "<group>"; };
+		87452AF61F66C777003D9ABD /* Hard22.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard22.csv; sourceTree = "<group>"; };
 		8770D65C1E6A3396000B0186 /* Nanikore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nanikore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8770D65F1E6A3396000B0186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8770D6611E6A3396000B0186 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +239,33 @@
 		8770D67B1E6A3396000B0186 /* NanikoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanikoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8770D67F1E6A3396000B0186 /* NanikoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanikoreUITests.swift; sourceTree = "<group>"; };
 		8770D6811E6A3396000B0186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8770D68D1E6C00A8000B0186 /* TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		8770D68F1E6C0133000B0186 /* GameLevelSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLevelSelectViewController.swift; sourceTree = "<group>"; };
+		8770D6911E6C0143000B0186 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8770D6931E6C0155000B0186 /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		8770D6951E72A46C000B0186 /* StageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StageButton.swift; sourceTree = "<group>"; };
+		8784C18D1EA35F54000B032B /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		8784C18F1EA49FA1000B032B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		8784C1911EA49FAA000B032B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8784C1931EA49FCB000B032B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8784C1951EA49FD0000B032B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8784C1971EA49FDD000B032B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8784C1991EA49FE6000B032B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8784C19B1EA49FF3000B032B /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		8784C19D1EA49FFA000B032B /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		8784C19F1EA4A004000B032B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8784C1A11EA4A009000B032B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8784C1A31EA4A011000B032B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		87A2E1201EA6E7EA0045D863 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		87B4F8BF1F88CF1D006EEC02 /* Hard23.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard23.csv; sourceTree = "<group>"; };
+		87B4F8C11F88F214006EEC02 /* Hard24.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hard24.csv; sourceTree = "<group>"; };
+		87C3A13F1FBEC49400911484 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87C68FDD1F948FFF00E4DB56 /* countDownFinish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = countDownFinish.mp3; sourceTree = "<group>"; };
+		87C90D461EDEDFE0000B1C63 /* Easy1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Easy1.csv; sourceTree = "<group>"; };
+		87FD79891E850F5E0087FE06 /* GameRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRecordViewController.swift; sourceTree = "<group>"; };
+		87FD798B1E8510210087FE06 /* Nanikore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nanikore-Bridging-Header.h"; sourceTree = "<group>"; };
+		B6F8CF25E308F3DEC31F6411 /* Pods-NanikoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanikoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NanikoreTests/Pods-NanikoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		F809B6DFDE3D323D8342F6D3 /* libPods-Nanikore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Nanikore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +273,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8784C1A41EA4A011000B032B /* SystemConfiguration.framework in Frameworks */,
+				8784C1A21EA4A009000B032B /* StoreKit.framework in Frameworks */,
+				8784C1A01EA4A004000B032B /* MessageUI.framework in Frameworks */,
+				8784C19E1EA49FFA000B032B /* EventKitUI.framework in Frameworks */,
+				8784C19C1EA49FF3000B032B /* EventKit.framework in Frameworks */,
+				8784C19A1EA49FE6000B032B /* CoreTelephony.framework in Frameworks */,
+				8784C1981EA49FDD000B032B /* CoreMedia.framework in Frameworks */,
+				8784C1961EA49FD0000B032B /* CoreGraphics.framework in Frameworks */,
+				8784C1941EA49FCB000B032B /* AVFoundation.framework in Frameworks */,
+				8784C1921EA49FAA000B032B /* AudioToolbox.framework in Frameworks */,
+				8784C1901EA49FA1000B032B /* AdSupport.framework in Frameworks */,
+				DB15D22CFA605CD78AB603E0 /* libPods-Nanikore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +292,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DD2D84DCC5CD03BEC3E707 /* libPods-NanikoreTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +300,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC7D856693414BEE7349DB9 /* libPods-NanikoreUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08FA035B571DB51585DD4D8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8784C1A31EA4A011000B032B /* SystemConfiguration.framework */,
+				8784C1A11EA4A009000B032B /* StoreKit.framework */,
+				8784C19F1EA4A004000B032B /* MessageUI.framework */,
+				8784C19D1EA49FFA000B032B /* EventKitUI.framework */,
+				8784C19B1EA49FF3000B032B /* EventKit.framework */,
+				8784C1991EA49FE6000B032B /* CoreTelephony.framework */,
+				8784C1971EA49FDD000B032B /* CoreMedia.framework */,
+				8784C1951EA49FD0000B032B /* CoreGraphics.framework */,
+				8784C1931EA49FCB000B032B /* AVFoundation.framework */,
+				8784C1911EA49FAA000B032B /* AudioToolbox.framework */,
+				8784C18F1EA49FA1000B032B /* AdSupport.framework */,
+				F809B6DFDE3D323D8342F6D3 /* libPods-Nanikore.a */,
+				0FFFBBECE0158C890DDD6E67 /* libPods-NanikoreTests.a */,
+				49962416EE89B3D185F5AEE1 /* libPods-NanikoreUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		871134E81EB5DE8900CD66EE /* Music File */ = {
+			isa = PBXGroup;
+			children = (
+				871135031EBAE26900CD66EE /* decisionSound.mp3 */,
+				8711350F1EBEF3B600CD66EE /* touchSound.mp3 */,
+				871135051EBAE32200CD66EE /* countDown.mp3 */,
+				87377F5B1F98AB1D00306D12 /* correct.mp3 */,
+				871135121EC1DB1500CD66EE /* stampSound.wav */,
+				87377F5E1F98AB6A00306D12 /* wrong.mp3 */,
+				87377F5A1F98AB1600306D12 /* stageClear.mp3 */,
+				87C68FDD1F948FFF00E4DB56 /* countDownFinish.mp3 */,
+				871134FB1EBAE21100CD66EE /* clearSound.mp3 */,
+				871134F11EB8773500CD66EE /* failureSound.mp3 */,
+				871135011EBAE25200CD66EE /* nanikore_title_bgm.mp3 */,
+			);
+			name = "Music File";
+			sourceTree = "<group>";
+		};
 		8770D6531E6A3396000B0186 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +353,8 @@
 				8770D6731E6A3396000B0186 /* NanikoreTests */,
 				8770D67E1E6A3396000B0186 /* NanikoreUITests */,
 				8770D65D1E6A3396000B0186 /* Products */,
+				8BD79C2627BEBC0DFECF82BE /* Pods */,
+				08FA035B571DB51585DD4D8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +371,93 @@
 		8770D65E1E6A3396000B0186 /* Nanikore */ = {
 			isa = PBXGroup;
 			children = (
+				87D073EA1F91FDD1003AC5E2 /* Resources */,
 				8770D65F1E6A3396000B0186 /* AppDelegate.swift */,
+				87FD798B1E8510210087FE06 /* Nanikore-Bridging-Header.h */,
 				8770D6611E6A3396000B0186 /* ViewController.swift */,
+				8770D68D1E6C00A8000B0186 /* TitleViewController.swift */,
+				8770D68F1E6C0133000B0186 /* GameLevelSelectViewController.swift */,
+				87FD79891E850F5E0087FE06 /* GameRecordViewController.swift */,
+				87A2E1201EA6E7EA0045D863 /* Question.swift */,
+				8770D6911E6C0143000B0186 /* GameViewController.swift */,
+				8784C18D1EA35F54000B032B /* AnswerViewController.swift */,
+				8770D6931E6C0155000B0186 /* GameOverViewController.swift */,
+				8770D6951E72A46C000B0186 /* StageButton.swift */,
+				87C90D461EDEDFE0000B1C63 /* Easy1.csv */,
+				872F0B481EFF729D00AEEEAF /* Easy2.csv */,
+				872F0B4A1EFFC24600AEEEAF /* Easy3.csv */,
+				872F0B4C1EFFC36300AEEEAF /* Easy4.csv */,
+				872F0B4E1F04984900AEEEAF /* Easy5.csv */,
+				872F0B501F04E7EA00AEEEAF /* Easy6.csv */,
+				87452A761F466F27003D9ABD /* Easy7.csv */,
+				87452A781F46CB28003D9ABD /* Easy8.csv */,
+				87452A7A1F46DB36003D9ABD /* Easy9.csv */,
+				87452A7C1F46E6D5003D9ABD /* Easy10.csv */,
+				87452A7E1F46FF4C003D9ABD /* Easy11.csv */,
+				87452A801F47304A003D9ABD /* Easy12.csv */,
+				87452A821F47E0BB003D9ABD /* Easy13.csv */,
+				87452A841F488833003D9ABD /* Easy14.csv */,
+				87452A861F489548003D9ABD /* Easy15.csv */,
+				87452A881F49239B003D9ABD /* Easy16.csv */,
+				87452A8A1F496506003D9ABD /* Easy17.csv */,
+				87452A8C1F49C001003D9ABD /* Easy18.csv */,
+				87452A8E1F4AC04D003D9ABD /* Easy19.csv */,
+				87452A901F4B0420003D9ABD /* Easy20.csv */,
+				87452A921F4B1D70003D9ABD /* Easy21.csv */,
+				87452A961F4C1254003D9ABD /* Easy22.csv */,
+				87452A981F4C34EE003D9ABD /* Easy23.csv */,
+				87452A9A1F4C755C003D9ABD /* Easy24.csv */,
+				87452A9C1F4D5EE7003D9ABD /* Normal1.csv */,
+				87452A9E1F4DA1D7003D9ABD /* Normal2.csv */,
+				87452AA01F4E8FCA003D9ABD /* Normal3.csv */,
+				87452AA21F4EC215003D9ABD /* Normal4.csv */,
+				87452AA41F4F7F3D003D9ABD /* Normal5.csv */,
+				87452AA61F500368003D9ABD /* Normal6.csv */,
+				87452AA81F501E7D003D9ABD /* Normal7.csv */,
+				87452AAA1F503E34003D9ABD /* Normal8.csv */,
+				87452AAC1F505E6E003D9ABD /* Normal9.csv */,
+				87452AB21F51BDF3003D9ABD /* Normal10.csv */,
+				87452AB01F51B87E003D9ABD /* Normal11.csv */,
+				87452AAE1F51B468003D9ABD /* Normal12.csv */,
+				87452AB41F52B0AA003D9ABD /* Normal13.csv */,
+				87452AB61F52B7BD003D9ABD /* Normal14.csv */,
+				87452AB81F52C811003D9ABD /* Normal15.csv */,
+				87452ABA1F52E12F003D9ABD /* Normal16.csv */,
+				87452ABC1F530B0A003D9ABD /* Normal17.csv */,
+				87452ABE1F53A619003D9ABD /* Normal18.csv */,
+				87452AC01F53F650003D9ABD /* Normal19.csv */,
+				87452AC21F543615003D9ABD /* Normal20.csv */,
+				87452AC41F553FD9003D9ABD /* Normal21.csv */,
+				87452AC61F557BAE003D9ABD /* Normal22.csv */,
+				87452AC81F559DC4003D9ABD /* Normal23.csv */,
+				87452ACA1F568CC7003D9ABD /* Normal24.csv */,
+				87452ACC1F56CF72003D9ABD /* Hard1.csv */,
+				87452ACE1F57AFF1003D9ABD /* Hard2.csv */,
+				87452AD01F583E93003D9ABD /* Hard3.csv */,
+				87452AD21F5856F7003D9ABD /* Hard4.csv */,
+				87452AD41F592EDB003D9ABD /* Hard5.csv */,
+				87452AD61F597866003D9ABD /* Hard6.csv */,
+				87452AD81F5A5BF9003D9ABD /* Hard7.csv */,
+				87452ADA1F5AB23A003D9ABD /* Hard8.csv */,
+				87452ADC1F5ADC95003D9ABD /* Hard9.csv */,
+				87452ADE1F5AF0E4003D9ABD /* Hard10.csv */,
+				87452AE01F5B9662003D9ABD /* Hard11.csv */,
+				87452AE21F5BBEEE003D9ABD /* Hard12.csv */,
+				87452AE41F5BF20D003D9ABD /* Hard13.csv */,
+				87452AE61F5D09D5003D9ABD /* Hard14.csv */,
+				87452AE81F5EF40B003D9ABD /* Hard15.csv */,
+				87452AEA1F60F002003D9ABD /* Hard16.csv */,
+				87452AEC1F610B69003D9ABD /* Hard17.csv */,
+				87452AEE1F615A95003D9ABD /* Hard18.csv */,
+				87452AF01F622103003D9ABD /* Hard19.csv */,
+				87452AF21F627BCF003D9ABD /* Hard20.csv */,
+				87452AF41F64E70B003D9ABD /* Hard21.csv */,
+				87452AF61F66C777003D9ABD /* Hard22.csv */,
+				87B4F8BF1F88CF1D006EEC02 /* Hard23.csv */,
+				87B4F8C11F88F214006EEC02 /* Hard24.csv */,
 				8770D6631E6A3396000B0186 /* Main.storyboard */,
 				8770D6661E6A3396000B0186 /* Assets.xcassets */,
+				871134E81EB5DE8900CD66EE /* Music File */,
 				8770D6681E6A3396000B0186 /* LaunchScreen.storyboard */,
 				8770D66B1E6A3396000B0186 /* Info.plist */,
 			);
@@ -125,6 +482,27 @@
 			path = NanikoreUITests;
 			sourceTree = "<group>";
 		};
+		87D073EA1F91FDD1003AC5E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87C3A13F1FBEC49400911484 /* GoogleService-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8BD79C2627BEBC0DFECF82BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				360B216622E6D0C9AEC7A59B /* Pods-Nanikore.debug.xcconfig */,
+				2E873ACAA53E97A2E6DE214F /* Pods-Nanikore.release.xcconfig */,
+				004682B0FBD09EC4BEE0C04C /* Pods-NanikoreTests.debug.xcconfig */,
+				B6F8CF25E308F3DEC31F6411 /* Pods-NanikoreTests.release.xcconfig */,
+				7817366C448DF3A03EAE7140 /* Pods-NanikoreUITests.debug.xcconfig */,
+				58573A040A4E2EA2DC58B693 /* Pods-NanikoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +510,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8770D6841E6A3396000B0186 /* Build configuration list for PBXNativeTarget "Nanikore" */;
 			buildPhases = (
+				8E08967446EB551C0689AFE8 /* [CP] Check Pods Manifest.lock */,
 				8770D6581E6A3396000B0186 /* Sources */,
 				8770D6591E6A3396000B0186 /* Frameworks */,
 				8770D65A1E6A3396000B0186 /* Resources */,
@@ -149,6 +528,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8770D6871E6A3396000B0186 /* Build configuration list for PBXNativeTarget "NanikoreTests" */;
 			buildPhases = (
+				5379E37F848CDE285057BAEC /* [CP] Check Pods Manifest.lock */,
 				8770D66C1E6A3396000B0186 /* Sources */,
 				8770D66D1E6A3396000B0186 /* Frameworks */,
 				8770D66E1E6A3396000B0186 /* Resources */,
@@ -167,6 +547,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8770D68A1E6A3396000B0186 /* Build configuration list for PBXNativeTarget "NanikoreUITests" */;
 			buildPhases = (
+				9D55D5AF0D9135D00A97F8EC /* [CP] Check Pods Manifest.lock */,
 				8770D6771E6A3396000B0186 /* Sources */,
 				8770D6781E6A3396000B0186 /* Frameworks */,
 				8770D6791E6A3396000B0186 /* Resources */,
@@ -188,23 +569,26 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Kota Kawanishi";
 				TargetAttributes = {
 					8770D65B1E6A3396000B0186 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = FBNFNU46TG;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					8770D66F1E6A3396000B0186 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = FBNFNU46TG;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8770D65B1E6A3396000B0186;
 					};
 					8770D67A1E6A3396000B0186 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = FBNFNU46TG;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8770D65B1E6A3396000B0186;
 					};
@@ -235,9 +619,93 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872F0B4B1EFFC24600AEEEAF /* Easy3.csv in Resources */,
+				87C68FDE1F948FFF00E4DB56 /* countDownFinish.mp3 in Resources */,
+				87452A931F4B1D70003D9ABD /* Easy21.csv in Resources */,
+				87452A891F49239B003D9ABD /* Easy16.csv in Resources */,
+				87452A831F47E0BB003D9ABD /* Easy13.csv in Resources */,
+				87452AB71F52B7BD003D9ABD /* Normal14.csv in Resources */,
+				87452AE11F5B9662003D9ABD /* Hard11.csv in Resources */,
+				87452AB51F52B0AA003D9ABD /* Normal13.csv in Resources */,
+				87452A7F1F46FF4C003D9ABD /* Easy11.csv in Resources */,
+				87452ACB1F568CC7003D9ABD /* Normal24.csv in Resources */,
+				87452A851F488833003D9ABD /* Easy14.csv in Resources */,
+				87452ABF1F53A619003D9ABD /* Normal18.csv in Resources */,
+				871134FC1EBAE21100CD66EE /* clearSound.mp3 in Resources */,
+				87452AB11F51B87E003D9ABD /* Normal11.csv in Resources */,
+				87452ABD1F530B0A003D9ABD /* Normal17.csv in Resources */,
+				872F0B4D1EFFC36300AEEEAF /* Easy4.csv in Resources */,
+				87452AD51F592EDB003D9ABD /* Hard5.csv in Resources */,
+				87452AAD1F505E6E003D9ABD /* Normal9.csv in Resources */,
+				871134F21EB8773500CD66EE /* failureSound.mp3 in Resources */,
+				87452AE71F5D09D5003D9ABD /* Hard14.csv in Resources */,
+				87452A911F4B0420003D9ABD /* Easy20.csv in Resources */,
+				87452A771F466F27003D9ABD /* Easy7.csv in Resources */,
+				87452A991F4C34EE003D9ABD /* Easy23.csv in Resources */,
+				87452A7D1F46E6D5003D9ABD /* Easy10.csv in Resources */,
+				87452AE91F5EF40B003D9ABD /* Hard15.csv in Resources */,
 				8770D66A1E6A3396000B0186 /* LaunchScreen.storyboard in Resources */,
+				87452ADB1F5AB23A003D9ABD /* Hard8.csv in Resources */,
+				872F0B511F04E7EA00AEEEAF /* Easy6.csv in Resources */,
+				87452AEF1F615A95003D9ABD /* Hard18.csv in Resources */,
+				87452ACD1F56CF72003D9ABD /* Hard1.csv in Resources */,
+				871135131EC1DB1500CD66EE /* stampSound.wav in Resources */,
+				87452A8B1F496506003D9ABD /* Easy17.csv in Resources */,
+				87452AA91F501E7D003D9ABD /* Normal7.csv in Resources */,
+				87452AF71F66C777003D9ABD /* Hard22.csv in Resources */,
+				87452A8F1F4AC04D003D9ABD /* Easy19.csv in Resources */,
 				8770D6671E6A3396000B0186 /* Assets.xcassets in Resources */,
+				872F0B491EFF729D00AEEEAF /* Easy2.csv in Resources */,
+				87452AAB1F503E34003D9ABD /* Normal8.csv in Resources */,
+				87B4F8C01F88CF1D006EEC02 /* Hard23.csv in Resources */,
+				87452AC71F557BAE003D9ABD /* Normal22.csv in Resources */,
+				87452A811F47304A003D9ABD /* Easy12.csv in Resources */,
+				87452AB91F52C811003D9ABD /* Normal15.csv in Resources */,
+				87452AF51F64E70B003D9ABD /* Hard21.csv in Resources */,
+				87452AC31F543615003D9ABD /* Normal20.csv in Resources */,
+				87452AF31F627BCF003D9ABD /* Hard20.csv in Resources */,
+				87452A9F1F4DA1D7003D9ABD /* Normal2.csv in Resources */,
+				87377F5D1F98AB2600306D12 /* stageClear.mp3 in Resources */,
+				87C3A1401FBEC49400911484 /* GoogleService-Info.plist in Resources */,
+				87452AA51F4F7F3D003D9ABD /* Normal5.csv in Resources */,
+				87452AF11F622103003D9ABD /* Hard19.csv in Resources */,
+				87B4F8C21F88F214006EEC02 /* Hard24.csv in Resources */,
+				87452AD71F597866003D9ABD /* Hard6.csv in Resources */,
+				87452AD11F583E93003D9ABD /* Hard3.csv in Resources */,
+				87452AD91F5A5BF9003D9ABD /* Hard7.csv in Resources */,
+				872F0B4F1F04984900AEEEAF /* Easy5.csv in Resources */,
+				87452AEB1F60F002003D9ABD /* Hard16.csv in Resources */,
+				87452A7B1F46DB36003D9ABD /* Easy9.csv in Resources */,
+				871135041EBAE26900CD66EE /* decisionSound.mp3 in Resources */,
+				87377F5F1F98AB6D00306D12 /* wrong.mp3 in Resources */,
+				87452ADD1F5ADC95003D9ABD /* Hard9.csv in Resources */,
+				87452AC91F559DC4003D9ABD /* Normal23.csv in Resources */,
+				87452AE51F5BF20D003D9ABD /* Hard13.csv in Resources */,
+				87452A9B1F4C755C003D9ABD /* Easy24.csv in Resources */,
+				87452AAF1F51B468003D9ABD /* Normal12.csv in Resources */,
+				871135061EBAE32200CD66EE /* countDown.mp3 in Resources */,
+				87452ABB1F52E12F003D9ABD /* Normal16.csv in Resources */,
+				87452A791F46CB28003D9ABD /* Easy8.csv in Resources */,
+				87452A9D1F4D5EE7003D9ABD /* Normal1.csv in Resources */,
+				871135101EBEF3B600CD66EE /* touchSound.mp3 in Resources */,
+				87452AE31F5BBEEE003D9ABD /* Hard12.csv in Resources */,
+				87452A971F4C1254003D9ABD /* Easy22.csv in Resources */,
+				87452ACF1F57AFF1003D9ABD /* Hard2.csv in Resources */,
+				87452AED1F610B69003D9ABD /* Hard17.csv in Resources */,
+				87452AD31F5856F8003D9ABD /* Hard4.csv in Resources */,
+				87452AC51F553FD9003D9ABD /* Normal21.csv in Resources */,
+				87C90D471EDEDFE0000B1C63 /* Easy1.csv in Resources */,
+				87377F5C1F98AB2000306D12 /* correct.mp3 in Resources */,
 				8770D6651E6A3396000B0186 /* Main.storyboard in Resources */,
+				87452A871F489548003D9ABD /* Easy15.csv in Resources */,
+				87452AA11F4E8FCA003D9ABD /* Normal3.csv in Resources */,
+				87452AA71F500368003D9ABD /* Normal6.csv in Resources */,
+				87452AC11F53F650003D9ABD /* Normal19.csv in Resources */,
+				87452AB31F51BDF3003D9ABD /* Normal10.csv in Resources */,
+				871135021EBAE25200CD66EE /* nanikore_title_bgm.mp3 in Resources */,
+				87305E761FE6C38A0093C852 /* Hard10.csv in Resources */,
+				87452AA31F4EC215003D9ABD /* Normal4.csv in Resources */,
+				87452A8D1F49C001003D9ABD /* Easy18.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +725,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5379E37F848CDE285057BAEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NanikoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E08967446EB551C0689AFE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nanikore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D55D5AF0D9135D00A97F8EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NanikoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8770D6581E6A3396000B0186 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8770D6921E6C0143000B0186 /* GameViewController.swift in Sources */,
 				8770D6621E6A3396000B0186 /* ViewController.swift in Sources */,
+				8770D6941E6C0155000B0186 /* GameOverViewController.swift in Sources */,
+				8784C18E1EA35F54000B032B /* AnswerViewController.swift in Sources */,
 				8770D6601E6A3396000B0186 /* AppDelegate.swift in Sources */,
+				87A2E1211EA6E7EB0045D863 /* Question.swift in Sources */,
+				87FD798A1E850F5E0087FE06 /* GameRecordViewController.swift in Sources */,
+				8770D68E1E6C00A8000B0186 /* TitleViewController.swift in Sources */,
+				8770D6961E72A46C000B0186 /* StageButton.swift in Sources */,
+				8770D6901E6C0133000B0186 /* GameLevelSelectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,13 +854,16 @@
 		8770D6821E6A3396000B0186 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -335,7 +871,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -358,11 +899,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = "";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kota/Documents/Nanikore/Nanikore/Nanikore-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -371,13 +915,16 @@
 		8770D6831E6A3396000B0186 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -385,7 +932,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -402,9 +954,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[arch=*]" = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kota/Documents/Nanikore/Nanikore/Nanikore-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -413,32 +968,39 @@
 		};
 		8770D6851E6A3396000B0186 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360B216622E6D0C9AEC7A59B /* Pods-Nanikore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FBNFNU46TG;
 				INFOPLIST_FILE = Nanikore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kotakawanishi.Nanikore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KotaKawanishi.NANIKORE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kota/Documents/Nanikore/Nanikore/Nanikore-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		8770D6861E6A3396000B0186 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E873ACAA53E97A2E6DE214F /* Pods-Nanikore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FBNFNU46TG;
 				INFOPLIST_FILE = Nanikore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kotakawanishi.Nanikore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KotaKawanishi.NANIKORE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kota/Documents/Nanikore/Nanikore/Nanikore-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		8770D6881E6A3396000B0186 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004682B0FBD09EC4BEE0C04C /* Pods-NanikoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -447,13 +1009,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kotakawanishi.NanikoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nanikore.app/Nanikore";
 			};
 			name = Debug;
 		};
 		8770D6891E6A3396000B0186 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F8CF25E308F3DEC31F6411 /* Pods-NanikoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,13 +1026,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kotakawanishi.NanikoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nanikore.app/Nanikore";
 			};
 			name = Release;
 		};
 		8770D68B1E6A3396000B0186 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7817366C448DF3A03EAE7140 /* Pods-NanikoreUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = FBNFNU46TG;
@@ -476,13 +1042,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kotakawanishi.NanikoreUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = Nanikore;
 			};
 			name = Debug;
 		};
 		8770D68C1E6A3396000B0186 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58573A040A4E2EA2DC58B693 /* Pods-NanikoreUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = FBNFNU46TG;
@@ -490,7 +1058,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kotakawanishi.NanikoreUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = Nanikore;
 			};
 			name = Release;
@@ -514,6 +1083,7 @@
 				8770D6861E6A3396000B0186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8770D6871E6A3396000B0186 /* Build configuration list for PBXNativeTarget "NanikoreTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +1092,7 @@
 				8770D6891E6A3396000B0186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8770D68A1E6A3396000B0186 /* Build configuration list for PBXNativeTarget "NanikoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +1101,7 @@
 				8770D68C1E6A3396000B0186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,26 +1,358 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="j4n-to-fHh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Game View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Game" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="GameViewController" customModule="Nanikore" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="37.600000000000001" y="110.19490254872565"/>
+        </scene>
+        <!--Title View Controller-->
+        <scene sceneID="CNu-39-z5U">
+            <objects>
+                <viewController storyboardIdentifier="Title" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="f3R-ge-WeD" customClass="TitleViewController" customModule="Nanikore" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="R97-U0-lHX"/>
+                        <viewControllerLayoutGuide type="bottom" id="y5H-f9-BZc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TD9-q2-5Yj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainBackground" translatesAutoresizingMaskIntoConstraints="NO" id="fYa-ST-bcn">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVe-hD-5ch">
+                                <rect key="frame" x="42" y="276" width="136" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="PlayBtn"/>
+                                <connections>
+                                    <action selector="play:" destination="f3R-ge-WeD" eventType="touchUpInside" id="obh-dV-cmQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDm-Cw-If8">
+                                <rect key="frame" x="181" y="274" width="178" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="HowToPlayBtn"/>
+                                <connections>
+                                    <action selector="showHowToPlay:" destination="f3R-ge-WeD" eventType="touchUpInside" id="nud-jd-hGF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9IE-tE-bhJ">
+                                <rect key="frame" x="16" y="13" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="SoundOn"/>
+                                <connections>
+                                    <action selector="switchSoundOn:" destination="f3R-ge-WeD" eventType="touchUpInside" id="nJc-pz-nJZ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TitleIconImage" translatesAutoresizingMaskIntoConstraints="NO" id="SCW-N1-Iyl">
+                                <rect key="frame" x="0.0" y="85" width="375" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gXJ-eD-Bfp" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="621" width="375" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="y5H-f9-BZc" firstAttribute="top" secondItem="fYa-ST-bcn" secondAttribute="bottom" id="A33-Uo-98i"/>
+                            <constraint firstItem="fYa-ST-bcn" firstAttribute="leading" secondItem="TD9-q2-5Yj" secondAttribute="leading" id="Cgh-H7-vLA"/>
+                            <constraint firstAttribute="trailing" secondItem="fYa-ST-bcn" secondAttribute="trailing" id="KWP-Ij-BSV"/>
+                            <constraint firstItem="fYa-ST-bcn" firstAttribute="top" secondItem="TD9-q2-5Yj" secondAttribute="top" id="Ll6-29-AHg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="fYa-ST-bcn" id="xCI-tC-NXy"/>
+                        <outlet property="bannerView" destination="gXJ-eD-Bfp" id="xDB-O4-88J"/>
+                        <outlet property="howToPlayBtn" destination="fDm-Cw-If8" id="0rg-gg-B7N"/>
+                        <outlet property="iconView" destination="SCW-N1-Iyl" id="CKF-fI-GGl"/>
+                        <outlet property="playBtn" destination="hVe-hD-5ch" id="ZM3-xf-Mp5"/>
+                        <outlet property="soundBtn" destination="9IE-tE-bhJ" id="mPa-Xc-7gY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oNa-Fy-jFY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="821.60000000000002" y="132.68365817091455"/>
+        </scene>
+        <!--Game Record View Controller-->
+        <scene sceneID="l6v-JI-MDm">
+            <objects>
+                <viewController storyboardIdentifier="GameRecord" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="S8M-ng-OQB" customClass="GameRecordViewController" customModule="Nanikore" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YvP-H2-tmh"/>
+                        <viewControllerLayoutGuide type="bottom" id="hmH-VR-305"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YTK-FQ-h0E">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainBackground" translatesAutoresizingMaskIntoConstraints="NO" id="nMz-i5-BVu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="re9-mf-ZGR">
+                                <rect key="frame" x="12" y="14" width="54" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="BackToStageSelectBtn"/>
+                                <connections>
+                                    <action selector="backSelectStage:" destination="S8M-ng-OQB" eventType="touchUpInside" id="8bh-iP-itV"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RecordChart" translatesAutoresizingMaskIntoConstraints="NO" id="UkO-g8-Cv6">
+                                <rect key="frame" x="41" y="152" width="292" height="363"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="StageEasyLabel" translatesAutoresizingMaskIntoConstraints="NO" id="fGv-gY-egp">
+                                <rect key="frame" x="41" y="78" width="306" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iLN-P2-9zo" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k85-3O-aVN">
+                                <rect key="frame" x="67" y="551" width="240" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="TakeTheExamBtn"/>
+                                <connections>
+                                    <action selector="takeAnExam:" destination="S8M-ng-OQB" eventType="touchUpInside" id="vur-kK-sq4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hmH-VR-305" firstAttribute="top" secondItem="nMz-i5-BVu" secondAttribute="bottom" id="5zk-rS-BsW"/>
+                            <constraint firstItem="nMz-i5-BVu" firstAttribute="top" secondItem="YTK-FQ-h0E" secondAttribute="top" id="b8d-wf-T8h"/>
+                            <constraint firstItem="nMz-i5-BVu" firstAttribute="leading" secondItem="YTK-FQ-h0E" secondAttribute="leading" id="ihN-KB-11a"/>
+                            <constraint firstAttribute="trailing" secondItem="nMz-i5-BVu" secondAttribute="trailing" id="nkV-nn-Jxr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backToStageSelectBtn" destination="re9-mf-ZGR" id="UDZ-HN-uaU"/>
+                        <outlet property="bannerView" destination="iLN-P2-9zo" id="zL5-nC-kLB"/>
+                        <outlet property="mainBackgroundView" destination="nMz-i5-BVu" id="h2S-bH-yg9"/>
+                        <outlet property="recordChartView" destination="UkO-g8-Cv6" id="nur-xb-gGl"/>
+                        <outlet property="stageLabel" destination="fGv-gY-egp" id="EUl-Ps-z2i"/>
+                        <outlet property="takeTheExamBtn" destination="k85-3O-aVN" id="BeD-LG-QjO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wDR-wp-Dxp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1549.5999999999999" y="132.68365817091455"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="bm3-cT-95M">
+            <objects>
+                <viewController storyboardIdentifier="Main" title="Main" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="j4n-to-fHh" customClass="ViewController" customModule="Nanikore" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="esh-3Q-W7B"/>
+                        <viewControllerLayoutGuide type="bottom" id="wEI-Tv-bAA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sai-br-3ss">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TQi-H1-Zuy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="713" y="911"/>
+        </scene>
+        <!--Answer View Controller-->
+        <scene sceneID="R6l-eZ-Q05">
+            <objects>
+                <viewController storyboardIdentifier="Answer" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="F3l-69-vAd" customClass="AnswerViewController" customModule="Nanikore" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5HI-yl-q73"/>
+                        <viewControllerLayoutGuide type="bottom" id="zdx-ug-2Og"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J60-N4-kZF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zYU-xg-OJA" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="593" width="375" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="bannerView" destination="zYU-xg-OJA" id="s6p-r8-W4Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cMb-lN-cW0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-266" y="-573"/>
+        </scene>
+        <!--Game Level Select View Controller-->
+        <scene sceneID="zzu-ms-4pC">
+            <objects>
+                <viewController storyboardIdentifier="GameLevelSelect" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RKR-bl-IPF" customClass="GameLevelSelectViewController" customModule="Nanikore" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TwE-hQ-9Eq"/>
+                        <viewControllerLayoutGuide type="bottom" id="hCI-wD-7VU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bdZ-lF-u3p">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainBackground" translatesAutoresizingMaskIntoConstraints="NO" id="hEz-kU-zYf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f33-yO-v5n" userLabel="Back Home Btn">
+                                <rect key="frame" x="16" y="20" width="66" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="HomeBtn"/>
+                                <connections>
+                                    <action selector="backHome:" destination="RKR-bl-IPF" eventType="touchUpInside" id="cvI-An-elU"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eGf-GL-xei" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="601" width="375" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="hEz-kU-zYf" secondAttribute="bottom" id="9m8-v2-nNh"/>
+                            <constraint firstItem="hEz-kU-zYf" firstAttribute="top" secondItem="bdZ-lF-u3p" secondAttribute="top" id="KeW-XZ-DlR"/>
+                            <constraint firstAttribute="trailing" secondItem="hEz-kU-zYf" secondAttribute="trailing" id="KkQ-iP-F86"/>
+                            <constraint firstItem="hEz-kU-zYf" firstAttribute="leading" secondItem="bdZ-lF-u3p" secondAttribute="leading" id="RV9-YM-s5M"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backHomeBtn" destination="f33-yO-v5n" id="65i-9l-uxC"/>
+                        <outlet property="bannerView" destination="eGf-GL-xei" id="LPN-Kh-xHr"/>
+                        <outlet property="mainBackgroundView" destination="hEz-kU-zYf" id="nMg-sE-ile"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iuY-dh-Xno" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653.60000000000002" y="-566.26686656671666"/>
+        </scene>
+        <!--Game Over View Controller-->
+        <scene sceneID="wLi-NO-pRb">
+            <objects>
+                <viewController storyboardIdentifier="GameOver" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Yaf-gp-IiK" customClass="GameOverViewController" customModule="Nanikore" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZWM-rL-eEz"/>
+                        <viewControllerLayoutGuide type="bottom" id="vgW-bL-ci9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2CF-Pf-uJ7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainBackground" translatesAutoresizingMaskIntoConstraints="NO" id="srD-c0-JZA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LevelStage" translatesAutoresizingMaskIntoConstraints="NO" id="pBb-v6-bqC">
+                                <rect key="frame" x="67" y="42" width="240" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NeS-af-grV">
+                                <rect key="frame" x="55" y="306" width="126" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="PlayAgainBtn"/>
+                                <connections>
+                                    <action selector="playAgain:" destination="Yaf-gp-IiK" eventType="touchUpInside" id="f6s-VC-mfm"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIj-MP-7Qe">
+                                <rect key="frame" x="68" y="382" width="100" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="CheckAnswersBtn"/>
+                                <connections>
+                                    <action selector="checkAnswer:" destination="Yaf-gp-IiK" eventType="touchUpInside" id="hfV-ut-gaR"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tai-qX-jE1">
+                                <rect key="frame" x="201" y="348" width="103" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="TitleBtn"/>
+                                <connections>
+                                    <action selector="backTitle:" destination="Yaf-gp-IiK" eventType="touchUpInside" id="rJX-th-g1x"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M99-iV-9OA" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="625" width="375" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxp-aL-i1t">
+                                <rect key="frame" x="122" y="462" width="130" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="NextStageBtn"/>
+                                <connections>
+                                    <action selector="nextStage:" destination="Yaf-gp-IiK" eventType="touchUpInside" id="JW7-xO-C0d"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="srD-c0-JZA" secondAttribute="trailing" id="30A-ef-O37"/>
+                            <constraint firstAttribute="bottom" secondItem="srD-c0-JZA" secondAttribute="bottom" id="GbZ-jN-Vbm"/>
+                            <constraint firstItem="srD-c0-JZA" firstAttribute="leading" secondItem="2CF-Pf-uJ7" secondAttribute="leading" id="Tuo-Wv-WgZ"/>
+                            <constraint firstItem="srD-c0-JZA" firstAttribute="top" secondItem="2CF-Pf-uJ7" secondAttribute="top" id="fcE-ud-T2l"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bannerView" destination="M99-iV-9OA" id="TAa-LZ-Vz4"/>
+                        <outlet property="checkAnswerBtn" destination="fIj-MP-7Qe" id="BhA-Rx-oz5"/>
+                        <outlet property="levelStageLabel" destination="pBb-v6-bqC" id="Zo2-C5-L3V"/>
+                        <outlet property="mainBackgroundView" destination="srD-c0-JZA" id="9vF-bB-3zi"/>
+                        <outlet property="nextStageBtn" destination="kxp-aL-i1t" id="k54-fU-Tai"/>
+                        <outlet property="playAgainBtn" destination="NeS-af-grV" id="f8z-3f-0B9"/>
+                        <outlet property="titleBtn" destination="tai-qX-jE1" id="UVe-Kv-Qon"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J5D-2t-sFN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1504.8" y="-623.83808095952031"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BackToStageSelectBtn" width="108" height="108"/>
+        <image name="CheckAnswersBtn" width="212" height="72"/>
+        <image name="HomeBtn" width="108" height="108"/>
+        <image name="HowToPlayBtn" width="212" height="72"/>
+        <image name="LevelStage" width="600" height="72"/>
+        <image name="MainBackground" width="621" height="1024"/>
+        <image name="NextStageBtn" width="212" height="72"/>
+        <image name="PlayAgainBtn" width="212" height="72"/>
+        <image name="PlayBtn" width="212" height="72"/>
+        <image name="RecordChart" width="530" height="605"/>
+        <image name="SoundOn" width="117" height="117"/>
+        <image name="StageEasyLabel" width="360" height="87"/>
+        <image name="TakeTheExamBtn" width="330" height="92"/>
+        <image name="TitleBtn" width="212" height="72"/>
+        <image name="TitleIconImage" width="621" height="255"/>
+    </resources>
 </document>
