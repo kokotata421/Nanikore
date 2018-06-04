@@ -33,7 +33,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, TitleViewControll
         
         // Do any additional setup after loading the view, typically from a nib.
         self.createViewControllers()
-        self.setUpAudio()
+        self.configureAudio()
         
     }
     
@@ -77,7 +77,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, TitleViewControll
     
 
     
-    func setUpAudio(){
+    func configureAudio(){
         let audioPath = NSURL(fileURLWithPath: Bundle.main.path(forResource: "nanikore_title_bgm", ofType: "mp3")!)
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: audioPath as URL)
