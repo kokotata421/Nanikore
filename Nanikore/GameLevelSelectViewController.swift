@@ -145,7 +145,7 @@ class GameLevelSelectViewController: UIViewController, StageButtonDelegate, GADB
             createRecord()
         }
         
-        setAccessibleStage()
+        configureAccessibleStage()
         fetchClearNumberRecord()
         pageNumber = 1
         showArrows()
@@ -206,7 +206,7 @@ class GameLevelSelectViewController: UIViewController, StageButtonDelegate, GADB
         }
     }
     
-    func setAccessibleStage(){
+    func configureAccessibleStage(){
         accessibleStage = 2
         repeat{
             if clearRecord[accessibleStage] == true{
