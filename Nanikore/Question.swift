@@ -209,7 +209,7 @@ class CharacterView: UIImageView{
         self.character = character
         self.gameViewController = gameViewController
         self.isUserInteractionEnabled = true
-        self.setCharacterImage()
+        self.loadCharacterImage()
         self.defaultPosition = frame
         self.question = question
     }
@@ -218,7 +218,7 @@ class CharacterView: UIImageView{
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setCharacterImage(){
+    func loadCharacterImage(){
         switch character{
         case "ゃ":
             let imageString = "Character_や"

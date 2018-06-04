@@ -404,7 +404,7 @@ class GameViewController: UIViewController, QuestionProtocol, CharacterViewProto
             heightsOfQuestion.append(currentYPoint)
             self.scrollView.addSubview(questionLabel)
             self.questionLabelViews.append(questionLabel)
-            setQuestionNumberLabel(number: i + 1, questionLabel: questionLabel)
+            showQuestionNumberLabel(number: i + 1, questionLabel: questionLabel)
             currentYPoint += intervalLengthOfQuestionAndSquare + questionLabel.frame.height
             var characterArray = Array(questions[i].info.shuffleWord())
             let btnSize = CGSize.init(width: referenceSize.width * answerBtnScale.widthScale, height: referenceSize.height * answerBtnScale.heightScale)
@@ -452,7 +452,7 @@ class GameViewController: UIViewController, QuestionProtocol, CharacterViewProto
         }
     }
     
-    func setQuestionNumberLabel(number: Int, questionLabel:UIImageView){
+    func showQuestionNumberLabel(number: Int, questionLabel:UIImageView){
         var numberImageString: String!
         var numberViewFrame: CGRect!
         

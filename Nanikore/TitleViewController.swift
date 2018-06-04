@@ -217,9 +217,6 @@ class TitleViewController: UIViewController, GADBannerViewDelegate{
         self.view.bringSubview(toFront: bannerView)
         self.showArrows()
     }
-
-    
-    
     
     @IBAction func play(_ sender: Any){
         self.delegate.touchSound()

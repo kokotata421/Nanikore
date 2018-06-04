@@ -156,11 +156,11 @@ class AnswerViewController: UIViewController, GADBannerViewDelegate, GADIntersti
                 hardStringLabel.frame = hardStringFrame
                 levelStageLabel.addSubview(hardStringLabel)
         }
-            setNumberOnLevelStageLabel()
+            showNumberOnLevelStageLabel()
     }
     
     
-    func setNumberOnLevelStageLabel(){
+    func showNumberOnLevelStageLabel(){
         var tempNumber = stage.numberOfStage + 1
         for i in 0..<2{
             var stageNumberImageString: String!
