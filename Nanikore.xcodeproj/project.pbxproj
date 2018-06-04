@@ -328,24 +328,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		871134E81EB5DE8900CD66EE /* Music File */ = {
-			isa = PBXGroup;
-			children = (
-				871135031EBAE26900CD66EE /* decisionSound.mp3 */,
-				8711350F1EBEF3B600CD66EE /* touchSound.mp3 */,
-				871135051EBAE32200CD66EE /* countDown.mp3 */,
-				87377F5B1F98AB1D00306D12 /* correct.mp3 */,
-				871135121EC1DB1500CD66EE /* stampSound.wav */,
-				87377F5E1F98AB6A00306D12 /* wrong.mp3 */,
-				87377F5A1F98AB1600306D12 /* stageClear.mp3 */,
-				87C68FDD1F948FFF00E4DB56 /* countDownFinish.mp3 */,
-				871134FB1EBAE21100CD66EE /* clearSound.mp3 */,
-				871134F11EB8773500CD66EE /* failureSound.mp3 */,
-				871135011EBAE25200CD66EE /* nanikore_title_bgm.mp3 */,
-			);
-			name = "Music File";
-			sourceTree = "<group>";
-		};
 		8770D6531E6A3396000B0186 = {
 			isa = PBXGroup;
 			children = (
@@ -383,10 +365,10 @@
 				8784C18D1EA35F54000B032B /* AnswerViewController.swift */,
 				8770D6931E6C0155000B0186 /* GameOverViewController.swift */,
 				8770D6951E72A46C000B0186 /* StageButton.swift */,
-				87B92F8620C4C53C00B9B2B9 /* GameData */,
+				87B92F8820C4C95600B9B2B9 /* Music */,
+				87B92F8720C4C91B00B9B2B9 /* GameData */,
 				8770D6631E6A3396000B0186 /* Main.storyboard */,
 				8770D6661E6A3396000B0186 /* Assets.xcassets */,
-				871134E81EB5DE8900CD66EE /* Music File */,
 				8770D6681E6A3396000B0186 /* LaunchScreen.storyboard */,
 				8770D66B1E6A3396000B0186 /* Info.plist */,
 			);
@@ -411,7 +393,7 @@
 			path = NanikoreUITests;
 			sourceTree = "<group>";
 		};
-		87B92F8620C4C53C00B9B2B9 /* GameData */ = {
+		87B92F8720C4C91B00B9B2B9 /* GameData */ = {
 			isa = PBXGroup;
 			children = (
 				87C90D461EDEDFE0000B1C63 /* Easy1.csv */,
@@ -487,7 +469,25 @@
 				87B4F8BF1F88CF1D006EEC02 /* Hard23.csv */,
 				87B4F8C11F88F214006EEC02 /* Hard24.csv */,
 			);
-			name = GameData;
+			path = GameData;
+			sourceTree = "<group>";
+		};
+		87B92F8820C4C95600B9B2B9 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				871135031EBAE26900CD66EE /* decisionSound.mp3 */,
+				8711350F1EBEF3B600CD66EE /* touchSound.mp3 */,
+				871135051EBAE32200CD66EE /* countDown.mp3 */,
+				87377F5B1F98AB1D00306D12 /* correct.mp3 */,
+				871135121EC1DB1500CD66EE /* stampSound.wav */,
+				87377F5E1F98AB6A00306D12 /* wrong.mp3 */,
+				87377F5A1F98AB1600306D12 /* stageClear.mp3 */,
+				87C68FDD1F948FFF00E4DB56 /* countDownFinish.mp3 */,
+				871134FB1EBAE21100CD66EE /* clearSound.mp3 */,
+				871134F11EB8773500CD66EE /* failureSound.mp3 */,
+				871135011EBAE25200CD66EE /* nanikore_title_bgm.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 		87D073EA1F91FDD1003AC5E2 /* Resources */ = {
