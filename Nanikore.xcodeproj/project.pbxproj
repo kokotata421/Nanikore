@@ -383,6 +383,37 @@
 				8784C18D1EA35F54000B032B /* AnswerViewController.swift */,
 				8770D6931E6C0155000B0186 /* GameOverViewController.swift */,
 				8770D6951E72A46C000B0186 /* StageButton.swift */,
+				87B92F8620C4C53C00B9B2B9 /* GameData */,
+				8770D6631E6A3396000B0186 /* Main.storyboard */,
+				8770D6661E6A3396000B0186 /* Assets.xcassets */,
+				871134E81EB5DE8900CD66EE /* Music File */,
+				8770D6681E6A3396000B0186 /* LaunchScreen.storyboard */,
+				8770D66B1E6A3396000B0186 /* Info.plist */,
+			);
+			path = Nanikore;
+			sourceTree = "<group>";
+		};
+		8770D6731E6A3396000B0186 /* NanikoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				8770D6741E6A3396000B0186 /* NanikoreTests.swift */,
+				8770D6761E6A3396000B0186 /* Info.plist */,
+			);
+			path = NanikoreTests;
+			sourceTree = "<group>";
+		};
+		8770D67E1E6A3396000B0186 /* NanikoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8770D67F1E6A3396000B0186 /* NanikoreUITests.swift */,
+				8770D6811E6A3396000B0186 /* Info.plist */,
+			);
+			path = NanikoreUITests;
+			sourceTree = "<group>";
+		};
+		87B92F8620C4C53C00B9B2B9 /* GameData */ = {
+			isa = PBXGroup;
+			children = (
 				87C90D461EDEDFE0000B1C63 /* Easy1.csv */,
 				872F0B481EFF729D00AEEEAF /* Easy2.csv */,
 				872F0B4A1EFFC24600AEEEAF /* Easy3.csv */,
@@ -455,31 +486,8 @@
 				87452AF61F66C777003D9ABD /* Hard22.csv */,
 				87B4F8BF1F88CF1D006EEC02 /* Hard23.csv */,
 				87B4F8C11F88F214006EEC02 /* Hard24.csv */,
-				8770D6631E6A3396000B0186 /* Main.storyboard */,
-				8770D6661E6A3396000B0186 /* Assets.xcassets */,
-				871134E81EB5DE8900CD66EE /* Music File */,
-				8770D6681E6A3396000B0186 /* LaunchScreen.storyboard */,
-				8770D66B1E6A3396000B0186 /* Info.plist */,
 			);
-			path = Nanikore;
-			sourceTree = "<group>";
-		};
-		8770D6731E6A3396000B0186 /* NanikoreTests */ = {
-			isa = PBXGroup;
-			children = (
-				8770D6741E6A3396000B0186 /* NanikoreTests.swift */,
-				8770D6761E6A3396000B0186 /* Info.plist */,
-			);
-			path = NanikoreTests;
-			sourceTree = "<group>";
-		};
-		8770D67E1E6A3396000B0186 /* NanikoreUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8770D67F1E6A3396000B0186 /* NanikoreUITests.swift */,
-				8770D6811E6A3396000B0186 /* Info.plist */,
-			);
-			path = NanikoreUITests;
+			name = GameData;
 			sourceTree = "<group>";
 		};
 		87D073EA1F91FDD1003AC5E2 /* Resources */ = {
